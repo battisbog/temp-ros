@@ -48,7 +48,7 @@ export default function Footer() {
         {/* Middle Section */}
         <div className="lg:col-span-2 md:col-span-4 flex flex-col justify-start items-start p-6 md:border-l md:border-r md:border-white text-sm">
           <a href="#" className="hover:underline">
-            Behrend Home Page
+            Home Page
           </a>
           <a href="#" className="hover:underline">
             Day of Giving

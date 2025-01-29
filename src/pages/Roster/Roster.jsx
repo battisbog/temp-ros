@@ -36,7 +36,7 @@ export default function Roster() {
         <div className="p-6 bg-white rounded shadow">
           <div>
             <h2 className="lg:text-4xl md:text-2xl text-xl py-6 font-semibold text-black">
-              2024 Behrend Men's Soccer Roster
+              Nittany Lions Men's Soccer Roster
             </h2>
           </div>
 

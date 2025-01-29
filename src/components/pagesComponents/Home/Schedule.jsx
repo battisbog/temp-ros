@@ -14,7 +14,7 @@ const resultsData = [
     type: "Men's Soccer",
     status: "Final - OT",
     team1: {
-      name: "Penn State Behrend",
+      name: "Nittany Lions",
       score: 0,
       icon: icon4,
     },
@@ -30,7 +30,7 @@ const resultsData = [
     type: "Men's Soccer",
     status: "Final - PK Away",
     team1: {
-      name: "Penn State Behrend",
+      name: "Nittany Lions",
       score: 0,
       icon: icon2,
     },
@@ -51,7 +51,7 @@ const resultsData = [
       icon: icon3,
     },
     team2: {
-      name: "Penn State Behrend",
+      name: "Nittany Lions",
       score: 2,
       icon: icon1,
     },
@@ -67,7 +67,7 @@ const resultsData = [
       icon: icon4,
     },
     team2: {
-      name: "Penn State Behrend",
+      name: "Nittany Lions",
       score: 6,
       icon: icon2,
     },

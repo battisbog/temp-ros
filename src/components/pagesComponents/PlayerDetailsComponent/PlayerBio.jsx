@@ -24,7 +24,7 @@ export default function PlayerBio({ player }) {
       </ul>
 
       {/* 2) At Penn State Behrend - adapt however you'd like */}
-      <h2 className="text-2xl font-bold mt-8 mb-4">At Penn State Behrend</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">At Penn State</h2>
       <p className="text-gray-700 mb-2">
         <strong>Academic Year:</strong>{" "}
         {player["Academic Year"] || "Not Available"}

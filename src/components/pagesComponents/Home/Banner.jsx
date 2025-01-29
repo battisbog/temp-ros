@@ -20,21 +20,21 @@ const images = [
     src: banner2,
     title: "Andrew Cassano Scores in Final Seconds",
     description:
-      "Andrew Cassano scored in the final seconds of the game to secure a thrilling victory for Penn State Behrend.",
+      "Andrew Cassano scored in the final seconds of the game to secure a thrilling victory for Penn State.",
   },
   {
     id: 3,
     src: banner3,
-    title: "Behrend Lions Advance to Playoffs",
+    title: "Nittany Lions Advance to Playoffs",
     description:
-      "The Behrend Lions advance to the playoffs after an outstanding performance in the final league match.",
+      "The Nittany Lions advance to the playoffs after an outstanding performance in the final league match.",
   },
   {
     id: 4,
     src: banner4,
     title: "Championship Dreams Continue",
     description:
-      "With a solid defense and offense, the Penn State Behrend Lions continue their championship dreams.",
+      "With a solid defense and offense, the Nittany Lions continue their championship dreams.",
     links: [
       { label: "Live Stats", url: "/live-stats" },
       { label: "Recap", url: "/recap" },
