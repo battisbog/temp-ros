@@ -12,20 +12,24 @@ export default function History() {
         {/* Achievements Section */}
         <div className="flex flex-col justify-center items-center text-sm text-black mb-6">
           <p className="mb-4">
-            <strong>AMCC Champions</strong> 1997, 1999, 2003, 2007, 2011, 2013,
-            2014, 2016, 2018, 2019, 2024
+            <strong>B10 Champions</strong> 1995, 2005, 2012, 2013, 2021, 2023
           </p>
           <p className="mb-4">
-            <strong>NCAA Tournament</strong> 2003 (Regional Semifinalist), 2007,
-            2011, 2013, 2014, 2016, 2018 (Sweet 16), 2019
+            <strong>NCAA Tournament Appearances</strong> 1970-1979, 1980-1986, 1988-1989, 1992-1995, 1998-1999, 2001-2002, 2004-2005, 2009-2010, 2013-2014, 2019-2021
           </p>
           <p className="mb-4">
-            <strong>ECAC Champions</strong> 2009
-          </p>
-          <p className="mb-4">
-            <strong>ECAC Tournament</strong> 2000, 2005, 2008, 2009, 2010, 2012,
-            2015, 2017, 2021, 2022, 2023
-          </p>
+          <strong>Professional Tournaments</strong> 
+          <br />
+          MLS NEXT Pro Invitational - 2020, 2022  
+          <br />
+          U.S. Soccer Development League - 2018, 2019, 2021  
+          <br />
+          Joan Memorial - 2021  
+          <br />
+          American Pro Cup - 2015, 2017, 2023  
+          <br />
+          National Elite Showcase - 2016, 2018, 2022  
+        </p>
           <p className="mb-4">
             <strong>International Trips</strong> England 1998, Italy 2002,
             Germany 2006, Brazil 2010, Spain 2013, Iceland 2016, Spain 2019,
