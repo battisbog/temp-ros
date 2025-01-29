@@ -26,7 +26,7 @@ const Navigationbar = () => {
   return (
     <div>
       {/* Mobile Navigation Toggle */}
-      <div className="lg:hidden flex justify-between items-center py-4 px-4 bg-primary">
+      <div className="lg:hidden flex justify-between items-center py-4 px-4" style={{ backgroundColor: '#041E42' }}>
         <div>
           <img
             src={logo}
@@ -46,7 +46,7 @@ const Navigationbar = () => {
       {/* Desktop Navigation */}
       <div className="hidden lg:block">
         <SectionWrapper>
-          <nav className="flex items-center py-4 px-8">
+          <nav className="flex items-center py-4 px-8" style={{ backgroundColor: '#041E42' }}>
             {/* Logo/Text */}
             <div className="mr-auto">
               <div>
@@ -59,14 +59,14 @@ const Navigationbar = () => {
             </div>
 
             {/* Navigation Menu */}
-            <ul className="flex text-primary font-bold text-lg space-x-8">
+            <ul className="flex text-white font-bold text-lg space-x-8">
               {menuItems.map((item) => (
                 <li
                   key={item.name}
                   onClick={() => handleMenuClick(item.name)}
                   className={`cursor-pointer ${
                     selectedItem === item.name
-                      ? "bg-primary text-white"
+                      ? "bg-white text-[#041E42]"
                       : "hover:bg-gray-200 hover:text-black"
                   }`}
                 >
