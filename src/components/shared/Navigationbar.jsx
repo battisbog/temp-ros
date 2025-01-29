@@ -25,8 +25,11 @@ const Navigationbar = () => {
   return (
     <div>
       <div className="bg-primary">
-        <h2 className="text-white py-4 font-bold text-2xl uppercase text-center">
-          Penn State Nittany Lions{" "}
+        <h2
+          className="text-white py-4 font-bold text-2xl uppercase text-center"
+          style={{ fontFamily: 'Roboto, sans-serif' }}
+        >
+            Penn State Nittany Lions{" "}
         </h2>
       </div>
 

@@ -20,7 +20,7 @@ export default function QuestionInfoForm() {
             professional level and transfer from another club.
           </p>
           <h3 className="text-lg font-semibold text-gray-800 text-center">
-            For further enquiries pls fill out the form below.
+            For further enquiries please fill out the form below.
           </h3>
           <div className="flex mt-4 space-x-4">
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md">
