@@ -3,6 +3,7 @@ import { IoMdClose, IoMdMenu } from "react-icons/io";
 import logo from "../../assets/images/logo/image.png";
 import SectionWrapper from "../common/wrapper/SectionWrapper";
 import MobileNavbar from "./MobileNavbar";
+
 const Navigationbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState("Home");
@@ -24,15 +25,6 @@ const Navigationbar = () => {
 
   return (
     <div>
-      <div className="bg-primary">
-        <h2
-          className="text-white py-4 font-bold text-2xl uppercase text-center"
-          style={{ fontFamily: 'Roboto, sans-serif' }}
-            >
-            Penn State Nittany Lions{" "}
-        </h2>
-      </div>
-
       {/* Mobile Navigation Toggle */}
       <div className="lg:hidden flex justify-between items-center py-4 px-4 bg-primary">
         <div>
@@ -40,7 +32,7 @@ const Navigationbar = () => {
             src={logo}
             alt="Penn State Nittany Lions"
             className="w-40 h-16"
-          />{" "}
+          />
         </div>
         <button
           onClick={toggleMobileMenu}
@@ -62,7 +54,7 @@ const Navigationbar = () => {
                   src={logo}
                   alt="Penn State Nittany Lions"
                   className="w-28 h-16"
-                />{" "}
+                />
               </div>
             </div>
 
