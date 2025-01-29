@@ -11,20 +11,13 @@ export default function QuestionInfoForm() {
     <div className="p-6 bg-gray-100 min-h-screen flex flex-col items-center">
       {/* Form Container */}
       <div className="bg-white rounded-lg shadow-lg w-full max-w-4xl p-6">
-        {/* Avatar and Header */}
+        {/* Header */}
         <div className="flex flex-col items-center mb-6">
-          <div className="w-24 h-24 bg-gray-300 rounded-full flex items-center justify-center text-gray-500 mb-4">
-            <span>Add Picture</span>
-          </div>
-          {/* <h2 className="text-lg font-semibold text-gray-800 text-center">
-            Use <span className="font-bold">Recruit Spot</span> to get your
-            information to coaches.
-          </h2> */}
           <p>
             The Penn State Nittany Lions represent Penn State men`s soccer in
             professional tournaments. To be selected for the squad, players must
             consistently perform well on their campus team or already be at a
-            professional level and transfer from another club
+            professional level and transfer from another club.
           </p>
           <h3 className="text-lg font-semibold text-gray-800 text-center">
             For further enquiries pls fill out the form below.
