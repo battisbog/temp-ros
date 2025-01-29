@@ -15,7 +15,7 @@ export default function History() {
             <strong>B10 Champions</strong> 1995, 2005, 2012, 2013, 2021, 2023
           </p>
           <p className="mb-4">
-            <strong>NCAA Tournament Appearances</strong> 1970-1979, 1980-1986, 1988-1989, 1992-1995, 1998-1999, 2001-2002, 2004-2005, 2009-2010, 2013-2014, 2019-2021
+            <strong>NCAA Tournament Appearances</strong> 1992-1995, 1998-1999, 2001-2002, 2004-2005, 2009-2010, 2013-2014, 2019-2021
           </p>
           <p className="mb-4">
           <strong>Professional Tournaments</strong> 
